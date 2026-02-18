@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora de Áreas"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona una figura:"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- RadioGroup con las opciones de figuras -->
+    <RadioGroup
+        android:id="@+id/radioGroupFiguras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp">
+
+        <RadioButton
+            android:id="@+id/radioCirculo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Círculo"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radioTrapecio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trapecio"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radioRombo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rombo"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radioTriangulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Triángulo"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+    </RadioGroup>
+
+    <!-- Botón para calcular -->
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular Área"
+        android:textSize="16sp"
+        android:paddingHorizontal="32dp"/>
+
+</LinearLayout>
