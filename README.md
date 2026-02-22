@@ -1,5 +1,4 @@
-# Areas2Dgit branch -M main
-git push -u origin main
+# Areas2D
 
 My first Android app that calculates the area of different geometric shapes
 
