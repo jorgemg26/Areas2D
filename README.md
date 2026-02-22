@@ -4,7 +4,7 @@ My first Android app that calculates the area of different geometric shapes
 
 ## Features
 
-- Calculate the area of `rectangle`, `triangle`, `circle` and `trpaezoid`
+- Calculate the area of `rectangle`, `triangle`, `circle` and `trapezoid`
 - Clean and simple user interface
 - Input validation for measurements
 - Easy navigation between screens
